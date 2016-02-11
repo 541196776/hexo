@@ -430,10 +430,10 @@ body {
 #subtitle {
   text-decoration: none;
   color: #fff;
-  font-weight: 300;
+  font-weight: 500;
 }
 #logo {
-  font-size: 40px;
+  font-size: 70px;
   line-height: 40px;
   letter-spacing: 2px;
   padding: 5px 10px;
@@ -442,22 +442,21 @@ body {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 1px;
-  color: #687e91;
+  color: #fff;
 }
 #subtitle-wrap {
   margin-top: 16px;
 }
 #main-nav {
   float: left;
-  margin-left: -15px;
 }
 .nav-icon,
 .main-nav-link {
   float: left;
   color: #fff;
-  opacity: 0.6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: alpha(opacity=60);
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -466,13 +465,15 @@ body {
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   display: block;
-  padding: 20px 15px;
+  padding-bottom: 5px;
+  margin: 20px 15px;
 }
 .nav-icon:hover,
 .main-nav-link:hover {
   opacity: 1;
   -ms-filter: none;
   filter: none;
+  border-bottom: 1px solid #fff;
 }
 .nav-icon {
   font-family: FontAwesome;
