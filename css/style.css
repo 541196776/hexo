@@ -422,7 +422,7 @@ body {
   text-align: center;
   height: 40px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
   margin-top: -20px;
 }
@@ -433,19 +433,27 @@ body {
   font-weight: 500;
 }
 #logo {
-  font-size: 70px;
+  font-size: 40px;
   line-height: 40px;
   letter-spacing: 2px;
   padding: 5px 10px;
+  text-shadow: 0 0 5px #000;
 }
 #subtitle {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 1px;
   color: #fff;
+  padding: 10px 20px;
+  margin: 0 15px;
+  border: 1px solid #fff;
+}
+#subtitle:hover {
+  background-color: #fff;
+  color: #606060;
 }
 #subtitle-wrap {
-  margin-top: 16px;
+  margin-top: 32px;
 }
 #main-nav {
   float: left;
@@ -454,25 +462,14 @@ body {
 .main-nav-link {
   float: left;
   color: #fff;
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  transition: opacity 0.2s;
   display: block;
   padding-bottom: 5px;
   margin: 20px 15px;
 }
 .nav-icon:hover,
 .main-nav-link:hover {
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
   border-bottom: 1px solid #fff;
 }
 .nav-icon {
